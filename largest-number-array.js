@@ -1,5 +1,7 @@
 /*
 Find the Largest Number in an Array
+source: edabit - very easy
+
 Create a function that takes an array of numbers. Return the largest number in the array.
 
 ** Examples
