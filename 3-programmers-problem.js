@@ -14,8 +14,6 @@ programmers(33, 72, 74) ➞ 41
 programmers(1, 5, 9) ➞ 8
 */
 
-// Hello world
-
 // MY SOLUTION
 const programmers = (one, two, three) => 
     Math.max(one, two, three) - Math.min(one, two, three);
