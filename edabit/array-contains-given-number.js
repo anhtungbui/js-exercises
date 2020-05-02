@@ -1,6 +1,7 @@
 /*
 Check if an Array Contains a Given Number
 source: edabit - very easy
+https://edabit.com/challenge/SwyjHvkqwwQ2iJsoS
 
 Write a function to check if an array contains a particular number.
 
