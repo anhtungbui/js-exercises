@@ -1,6 +1,7 @@
 /*
 Find the Index
 source: edabit - very easy
+https://edabit.com/challenge/pEzxi4MqHGrAi7ZdA
 
 Create a function that finds the index of a given item.
 
