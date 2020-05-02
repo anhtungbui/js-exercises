@@ -1,6 +1,7 @@
 /*
 Multiple of 100
 source: edabit - very easy
+https://edabit.com/challenge/qMr6wYGr6NaXAPQGF
 
 Create a function that takes an integer and returns true 
 if it's divisible by 100, otherwise return false.
