@@ -1,6 +1,7 @@
 /*
 Convert Kilometers to Miles
 source: edabit - very easy
+https://edabit.com/challenge/G6iPEYEesayG5eko8
 
 In this challenge, you have to implement a function 
 that returns the given distance kilometers converted into miles. 
