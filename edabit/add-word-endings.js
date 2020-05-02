@@ -1,6 +1,7 @@
 /*
 Word Endings
 source: edabit - very easy
+https://edabit.com/challenge/hwWLHcDoPZmXcGHyd
 
 Create a function that adds a string ending to each member in an array.
 
