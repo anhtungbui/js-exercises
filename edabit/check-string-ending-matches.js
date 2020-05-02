@@ -1,6 +1,7 @@
 /*
 Check if String Ending Matches Second String
 source: edabit - very easy
+https://edabit.com/challenge/H9ohpGMyqJ9bAkqE5
 
 Create a function that takes two strings and returns true if the first string ends with the second string; otherwise return false.
 
