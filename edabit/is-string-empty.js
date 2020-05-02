@@ -1,6 +1,7 @@
 /*
 Is the String Empty?
 source: edabit - very easy
+https://edabit.com/challenge/EzbfiquDoAc2Zc9FL
 
 Create a function that returns true if a string is empty and false otherwise.
 
