@@ -1,4 +1,8 @@
 /*
+Hello; Hello World; World
+source: edabit - very easy
+https://edabit.com/challenge/uJqrcYkz4NvYi9eCY
+
 Write a function that takes an integer and:
 
 If the number is a multiple of 3, return "Hello".
