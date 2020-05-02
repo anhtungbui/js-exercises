@@ -1,6 +1,7 @@
 /*
 Basic Algorithm Scripting: Return Largest Numbers in Arrays
 source: freecodecamp
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/return-largest-numbers-in-arrays
 
 Return an array consisting of the largest number from each provided sub-array. 
 For simplicity, the provided array will contain exactly 4 sub-arrays.
