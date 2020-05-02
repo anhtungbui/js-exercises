@@ -15,16 +15,10 @@ programmers(1, 5, 9) ➞ 8
 */
 
 // MY SOLUTION
-const programmers = (one, two, three) => 
-    Math.max(one, two, three) - Math.min(one, two, three);
+const programmers = (...salary) => 
+    Math.max(...salary) - Math.min(...salary);
 
-// 2ND SOLUTION (using rest parameters)
-//Won't work with arrow function expressions (?!)
-function programmers(one, two, three) {
-	return Math.max(...arguments) - Math.min(...arguments)
-} 
-
-// 3RD SOLUTION (using array sorting)
+// 2ND SOLUTION (using array sorting)
 const programmers = (...salary) => {
     let salaryRanking = salary.sort((a, b) => a - b);
     return salaryRanking.pop() - salaryRanking.shift();
