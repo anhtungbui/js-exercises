@@ -1,6 +1,7 @@
 /*
 Count the Syllables
 source: edabit - very easy
+https://edabit.com/challenge/rkoYERWYDt32qZLvH
 
 Create a function that returns the number of syllables in a simple string. 
 The string is made up of short repeated words like "Lalalalalalala" 
