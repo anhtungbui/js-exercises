@@ -28,3 +28,17 @@ cityFacts({
 }) ➞ "Tokyo has a population of 13,929,286 and is situated in Asia"
 
 */
+
+// MY SOLUTION
+function cityFacts(city) {
+  return `${city.name} has a population of ${city.population} and is situated in ${city.continent}`;
+}
+
+// TEST CASES
+console.log(
+  cityFacts({
+    name: 'Paris',
+    population: '2,140,526',
+    continent: 'Europe',
+  })
+);
