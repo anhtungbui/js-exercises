@@ -33,6 +33,9 @@ Profit = Total Sales - Total Cost
 */
 
 // MY SOLUTION
+function profit(info) {
+  return Math.round((info.sellPrice - info.costPrice) * info.inventory);
+}
 
 // TEST CASES
 console.log(

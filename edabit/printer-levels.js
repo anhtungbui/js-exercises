@@ -32,6 +32,12 @@ if any of the slots lack ink (see example #3).
 */
 
 // MY SOLUTION
+function inkLevels(cartridge) {
+  return Math.min(cartridge.cyan, cartridge.magenta, cartridge.yellow);
+}
+
+// 2ND SOLUTION
+const inkLevels = (inks) => Math.min(...Object.values(inks));
 
 // TEST CASES
 console.log(
