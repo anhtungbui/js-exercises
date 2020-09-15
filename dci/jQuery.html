@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <title>jQuery Code Playground</title>
+    <style>
+      .box-1,
+      .box-2,
+      .box-3,
+      .box-4 {
+        width: 300px;
+        height: 150px;
+        border: 1px solid grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="button">Get Random Dog Picture</button>
+    <div class="box-1">
+      <h1>Hover Me</h1>
+    </div>
+    <div class="box-2">
+      <h1>Click To Hide</h1>
+    </div>
+    <div class="box-3">
+      <h1>Click To Add Element</h1>
+    </div>
+    <div class="box-4">
+      <h1>Fade In Box-2</h1>
+      <h1>Fade Out Box-1</h1>
+    </div>
+    <script>
+      // On mouse over, mouse out and change css attributes
+      $('.box-1').on('mouseover', () => {
+        $('.box-1').css('background-color', 'salmon');
+      });
+
+      $('.box-1').on('mouseout', () => {
+        $('.box-1').css('background-color', 'darkgreen');
+      });
+
+      // On click and hide element
+      $('.box-2').on('click', () => {
+        $('.box-2').hide();
+      });
+
+      // Create new element
+      $('.box-3').click(() => {
+        $('.box-3').html('<h1>NEW</h1>');
+      });
+
+      // Fade in & out effect
+      $('.box-4').click(() => {
+        $('.box-1').fadeOut(600);
+
+        if ($('.box-1').css('display') === 'none') {
+          $('.box-2').css('background', 'teal');
+          $('.box-2').fadeIn(600);
+        }
+      });
+
+      // Fetch/AJAX
+      $('.button').click(() => {
+        $.ajax({
+          url: 'https://random.dog/woof.json',
+          success: (result) => {
+            $('body').append(`<img src=${result.url} />`);
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
